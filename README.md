@@ -1,24 +1,24 @@
 # Kickstarting with Excel
 
 ## Overview
-This project uses kickstarter crowdfunding data for analysis. Earlier we had analyzed the kickstarter data and provided recommendations on how goals and launch dates impact successful campaigns. Now we will be analyzing the crowdfunding data to see how Louise faired against other campaigns. 
+This project uses kickstarter crowdfunding data for analysis. Earlier recommendationdations were made on how goals and launch dates impact successful campaigns after analyzing the kickstarter data. For this project, the crowdfunding data will be analyzed to see how Louise faired against other campaigns. 
 
 ### Purpose
-The purpose of the project is to analyze the kickstarter campaign data to find trends and relation between attributes that contribute to a successful crowdfunding campaign. For this analysis, our focus will be on how the goal amount and campaign launch date impacts a successful campaign.
+The purpose of the project is to analyze the kickstarter campaign data to find trends and relation between attributes that contribute to a successful crowdfunding campaign. For this analysis, the focus will mainly be on how the goal amount and campaign launch date impacts a successful campaign. 
 
 ## Analysis and Challenges
-As stated in the purpose of the project, the analysis of the kickstarter data was mainly focused on the goal amount and the launch date. Below are the details for the analysis by launch date and goals.
+As stated in the purpose of the project, the analysis of the kickstarter data was mainly focused on the goal amount and the launch date. Below are the details for the analysis by launch date and goals. Detailed analysis can be found in this spreadsheet link. (Kickstarter Analysis)
 
 ### Analysis of Outcomes Based on Launch Date
-For analysis by launch date, we created a pivot table and chart that shows the number of campaigns by outcome and launch date filtered for theater subcategory, as seen in the chart below.
+For analysis by launch date, the launch date had to be convereted from unix timestamp to short date format. A pivot table and chart that shows the number of campaigns by outcome and launch date, filtered for theater subcategory, as seen in the chart below was created. The launch date column was also grouped to months for easier analysis.
 
 ### Analysis of Outcomes Based on Goals
-For analysis by goal amount, we first group the goal amount in 12 different rows. We then created a new table that shows us the number of campaigns by outcomes for each of the goal group. The data was also filtered for "plays" subcategory. Below is the link to the chart.
+For analysis by goal amount, the goal amount was grouped into 12 different rows. A new table(/sheet) that shows us the number of campaigns by outcomes for each of the goal group was then created. The data was also filtered for "plays" subcategory and charted as shown below. 
 
 ### Challenges 
-As with any analysis, there were a few challenges that we encountered. 
+As with any analysis, there were a few challenges that were encountered. 
 - The data type in the columns were not formatted correctly. 
-- Launch date and end date columns have unix timestamp. We had to calculate the Gregorian date and format it accordingly which must be for our analysis.
+- Launch date and end date columns have unix timestamp. The Gregorian date had to be calculated and formatted for our analysis.
 - The parent category and Subcategory field were combined in a single column. They had to be split for easier analysis
 
 ## Results
