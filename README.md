@@ -7,7 +7,9 @@ This project uses kickstarter crowdfunding data for analysis. Earlier recommenda
 The purpose of the project is to analyze the kickstarter campaign data to find trends and relation between attributes that contribute to a successful crowdfunding campaign. For this analysis, the focus will mainly be on how the goal amount and campaign launch date impacts a successful campaign. 
 
 ## Analysis and Challenges
-As stated in the purpose of the project, the analysis of the kickstarter data was mainly focused on the goal amount and the launch date. Below are the details for the analysis by launch date and goals. Detailed analysis can be found in this spreadsheet link. (Kickstarter Analysis)
+As stated in the purpose of the project, the analysis of the kickstarter data was mainly focused on the goal amount and the launch date. Below are the details for the analysis by launch date and goals. Detailed analysis can be found in this spreadsheet link. 
+https://github.com/ssathyanath/Kickstarter-analysis/blob/master/Kickstarter_Challenge.xlsx
+
 
 ### Analysis of Outcomes Based on Launch Date
 For analysis by launch date, the launch date had to be convereted from unix timestamp to short date format. A pivot table and chart that shows the number of campaigns by outcome and launch date, filtered for theater subcategory, as seen in the chart below was created. The launch date column was also grouped to months for easier analysis.
