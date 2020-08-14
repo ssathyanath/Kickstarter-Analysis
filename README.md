@@ -1,7 +1,7 @@
 # Kickstarter Data Analysis with Excel
 
 ## Overview
-This project uses kickstarter crowdfunding data for analysis. Earlier recommendations were made on how goals and launch dates impact successful campaigns after analyzing the kickstarter data. For this project, the crowdfunding data will be analyzed to see how Louise's campaign faired against other campaigns. 
+This project uses kickstarter crowdfunding data for analysis. Recommendations were initially made on how goals and launch dates impact successful campaigns after analyzing the kickstarter data. For this project, the crowdfunding data will be analyzed to see how Louise's campaign faired against other campaigns. 
 
 ### Purpose
 The purpose of this project is to analyze the kickstarter campaign data to find trends and relation between attributes that contribute to a successful crowdfunding campaign. For this analysis, the focus will mainly be on how the goal amount and campaign launch date impacts a successful campaign. 
